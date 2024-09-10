@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en"> 
+<head> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="GATE 2024 CSE Quiz">
+    <meta name="keywords" content="quiz, GATE, CSE, computer science">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="styles.css" rel="stylesheet">
+    <title>GATE CSE Quiz</title>
+</head>
+
+<body> 
+    
+    <div id="gamecontainer">
+        <header>
+            <div id="header-container">
+                <h1>GATE 2024 CSE Quiz</h1> 
+             </div> 
+        </header>
+        <background-img src="background.image.webp"></background-img>
+
+        <div id="image-cont
+        ainer">
+            <img src="startgate.jpeg" alt="GATE Exam Photo">
+        </div>
+
+        <div id="end-image-container" class="hide">
+            <img src="end.webp" alt="Trophy Image" style="width: 100px;">    
+        </div>
+        
+
+        <div id="end-game-container" class="hide">
+            <h2 id="result-info">Placeholder</h2>
+            <br>
+            <a href="index.html" rel="help">Play again</a>
+        </div>
+
+        <div id="info-container">
+            <h2><strong>Test your knowledge of GATE 2024 CSE with 20 questions.</strong></h2>
+        </div> 
+    
+        <div id="start-button-container">
+            <button id="start-button" type="button">Start Quiz</button>
+        </div> 
+
+        <div id="question-container" class="hide">
+            <h2 id="question-box">What is the question?</h2>
+        </div>
+ 
+        <div id="answer-flex" class="hide">
+            <div class="answers-container">
+                <p class="answer-letter">A</p>
+                <button id="a-button" class="answer-button">A</button> 
+            </div>
+            
+            <div class="answers-container">
+                <p class="answer-letter">B</p>
+                <button id="b-button" class="answer-button">B</button>
+            </div> 
+
+            <div class="answers-container">
+                <p class="answer-letter">C</p>
+                <button id="c-button" class="answer-button">C</button>
+            </div>
+            
+            <div class="answers-container">
+                <p class="answer-letter">D</p>
+                <button id="d-button" class="answer-button">D</button>
+            </div>
+        </div>
+
+        <div id="button-container" class="hide">
+            <button id="previous-button" type="button">Previous Question</button>
+            <button id="next-button" type="button">Next Question</button>
+            <button id="show-answer-button" type="button">Show Answer</button>
+        </div> 
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
